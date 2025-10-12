@@ -146,6 +146,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@greater(activity('Copy data1').output.dataRead, 0)",
+						"type": "Expression"
+					},
 					"ifFalseActivities": [
 						{
 							"name": "Delete1",
