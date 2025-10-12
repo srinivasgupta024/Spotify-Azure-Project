@@ -135,7 +135,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Script1",
+						"activity": "max_cdc",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -200,7 +200,7 @@
 				]
 			},
 			{
-				"name": "Script1",
+				"name": "max_cdc",
 				"type": "Script",
 				"dependsOn": [
 					{
