@@ -5,6 +5,8 @@
 			{
 				"name": "SzureSQL_to_ADLS",
 				"type": "Copy",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "last_cdc",
@@ -62,7 +64,12 @@
 					},
 					"dataset": {
 						"referenceName": "Json1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "bronze",
+							"folder": "cdc",
+							"file": "cdc.json"
+						}
 					},
 					"firstRowOnly": false
 				}
