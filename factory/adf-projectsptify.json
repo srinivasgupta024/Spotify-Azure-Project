@@ -1,0 +1,9 @@
+{
+	"name": "adf-projectsptify",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cdb7b821-4d1e-4a27-bba9-9f598ede600c",
+		"tenantId": "b9fac946-5e71-400c-9836-11c2d9ee2e98"
+	}
+}
