@@ -147,7 +147,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@greater(activity('Copy data1').output.dataRead, 0)",
+						"value": "@greater(activity('SzureSQL_to_ADLS').output.dataRead, 0)",
 						"type": "Expression"
 					},
 					"ifFalseActivities": [
